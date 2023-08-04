@@ -25,7 +25,7 @@ ChartJS.register(
 	Title,
 	Tooltip,
 	Filler,
-	Legend
+	Legend,
 )
 
 const Dashbaord = () => {
@@ -252,9 +252,8 @@ const Dashbaord = () => {
 								Bar Chart Example
 							</div>
 							<div className='card-body'>
-								<Chart
+								<Bar
 									id='myBarChart'
-									type={myLineChart.type}
 									data={myLineChart.data}
 									options={myLineChart.options}
 								/>
